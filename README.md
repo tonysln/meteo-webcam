@@ -29,5 +29,7 @@ Libraries used:
 - matplotlib
 - opencv-python (cv2)
 - pillow (PIL)
+- pandas
+- sklearn
 - _tensorflow_
-- _sklearn_
+- _keras_
