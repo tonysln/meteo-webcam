@@ -1,6 +1,6 @@
 # Meteo Webcam Analysis
 
-The goal of this project is to analyze webcam capture images from [meteo.physic.ut.ee](https://meteo.physic.ut.ee/) and practice applying different analysis methods on the data. 
+
 All images used here are downloaded from the [archive](https://meteo.physic.ut.ee/webcam/uus/archive/). Thank you to the Laboratory of Environmental Physics in University of Tartu (Institute of Physics) for keeping this archive open and free to use.
 
 ## Ideas
@@ -18,18 +18,3 @@ Raw image files (in .jpg) are accessible at the archive, linked above. I would s
 
 For the skies only dataset, I have uploaded a 5x downscaled version for the years 2019 and 2020 [here](https://owncloud.ut.ee/owncloud/index.php/s/baF67777B4FTrMC), for a total of 17537 images in 256x62.
 
-All of the code is contained in the Jupyter notebook file `meteo_webcam_analysis.ipynb`.
-
-## Requirements
-
-Language: `Python 3.8+`
-
-Libraries used:
-- numpy
-- matplotlib
-- opencv-python (cv2)
-- pillow (PIL)
-- pandas
-- sklearn
-- _tensorflow_
-- _keras_
